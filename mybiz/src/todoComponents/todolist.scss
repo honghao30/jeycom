@@ -1,0 +1,29 @@
+.totoList__wrap {
+    margin-top:10px;
+    li {
+        position: relative;
+        padding:5px 0;
+        .toto-item__wrap {
+            display: flex;
+            justify-content: space-between;
+            .todo-items {
+                font-size:18px;
+                label {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .todo-controll {
+            button {
+                margin: 0 1px;
+                svg {
+                    width:15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+.totoList__wrap + .totoList__wrap {
+    margin-top: 50px;
+}
